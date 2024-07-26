@@ -1,0 +1,55 @@
+body,
+.inputs {
+  background-color: #24353f;
+}
+.inputs {
+  border-radius: 5px;
+  border: 1px outset white;
+}
+
+p {
+  font-weight: 600;
+}
+p,
+h6 {
+  color: #17a2b8;
+}
+::placeholder {
+  color: rgba(255, 255, 255, 0.692);
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+.button {
+  border: 1px outset#17a2b8;
+  background-color: #24353f;
+}
+.button:hover {
+  background-color: #17a2b8;
+}
+.button:hover h6 {
+  color: #f3f7f8;
+}
+h6 {
+  font-size: 18px;
+}
+.container {
+  background-color: #24353f;
+  box-shadow: 3px 3px 20px 10px rgb(20, 20, 20);
+  margin: auto;
+  margin-top: 100px;
+}
+.home {
+  height: 100vh;
+  background-color: bisque;
+}
+a {
+  text-decoration-line: none;
+  cursor: pointer;
+}
+.badge {
+  top: 20%;
+  left: 47%;
+}
